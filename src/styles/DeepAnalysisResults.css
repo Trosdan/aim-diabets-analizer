@@ -1,0 +1,107 @@
+.deep-analysis-results {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.deep-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.deep-card h2 {
+  color: white;
+}
+
+.deep-card .subtitle {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.deep-card .markdown-content {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: left;
+}
+
+.deep-card .markdown-content h1,
+.deep-card .markdown-content h2,
+.deep-card .markdown-content h3 {
+  color: #fff;
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+
+.deep-card .markdown-content p,
+.deep-card .markdown-content li {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.deep-card .markdown-content strong {
+  color: #fff;
+}
+
+.deep-card .markdown-content code {
+  background: rgba(0, 0, 0, 0.2);
+  color: #ffd700;
+}
+
+.deep-card .markdown-content pre {
+  background: rgba(0, 0, 0, 0.3);
+  color: #ffd700;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.deep-card .markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.deep-card .markdown-content th {
+  background: rgba(102, 126, 234, 0.3);
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.deep-card .markdown-content td {
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  text-align: left;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.deep-card .markdown-content tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.deep-card .markdown-content tbody tr:hover {
+  background-color: rgba(102, 126, 234, 0.2);
+}
+
+.loading-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  color: white;
+}
+
+.spinner.large {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top-color: white;
+  margin-bottom: 20px;
+}
+
+.loading-state p {
+  font-size: 18px;
+  opacity: 0.9;
+}
