@@ -125,6 +125,23 @@ export default function CSVUploader({ onAnalysisComplete, onApiKeyChange }) {
           </label>
         </div>
 
+        <div className="dataset-help">
+          <p>
+            <strong>Dataset recomendado:</strong>{' '}
+            <a
+              href="https://www.kaggle.com/datasets/saramah/diabets-data-set"
+              target="_blank"
+              rel="noreferrer"
+            >
+              baixar no Kaggle
+            </a>
+          </p>
+          <p>
+            <strong>Arquivo no repositório:</strong> use <strong>diabetes.csv</strong>{' '}
+            disponível na raiz do projeto.
+          </p>
+        </div>
+
         {error && <div className="error-message">❌ {error}</div>}
 
         <button

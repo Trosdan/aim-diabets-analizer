@@ -109,6 +109,31 @@
   transform: translateY(-2px);
 }
 
+.dataset-help {
+  margin: 14px 0 22px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.dataset-help p {
+  margin: 4px 0;
+}
+
+.dataset-help a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.dataset-help a:hover {
+  opacity: 0.85;
+}
+
 .analyze-button {
   width: 100%;
   padding: 15px;
@@ -162,6 +187,16 @@
 
 .info-box strong {
   font-weight: 600;
+}
+
+.info-box a {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.info-box a:hover {
+  opacity: 0.85;
 }
 
 .spinner {
